@@ -21,6 +21,7 @@ on:
       - MOSIP*
       - release*
       - ES-496
+      - revert_java21
 
 jobs:
   build-maven-esignet:
