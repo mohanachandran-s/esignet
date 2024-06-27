@@ -24,7 +24,7 @@ const allErrorStatusCodes = [
 // Create own axios instance with defaults.
 export const ApiService = axios.create({
   withCredentials: true,
-  baseURL: API_BASE_URL,
+  baseURL: API_BASE_URL
 });
 
 export const setupResponseInterceptor = (navigate) => {
